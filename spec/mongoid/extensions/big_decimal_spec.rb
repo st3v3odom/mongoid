@@ -3,7 +3,7 @@ require "spec_helper"
 describe Mongoid::Extensions::BigDecimal do
 
   let(:number) do
-    BigDecimal.new("123456.789")
+    BigDecimal("123456.789")
   end
 
   describe ".demongoize" do
